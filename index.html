@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f3ec18e802.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+     <div class="container">
+        <nav>
+           <img src="port_img/doc2.png"  class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>SOFTWARE DEVELOPER & UX/UI DESIGN</p>
+            <h1>Hi, I'm <span>Aradhya Singh</span></h1>
+        </div>
+     </div>
+</div>
+<!--about-->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="port_img/user2.png" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+
+                    Myself Aradhya Singh, and I completed my BCA. I have a keen interest in the field of computer science and technology, particularly in areas like software development, web design, and data analysis.
+                    
+                    Throughout my academic journey, I have gained a solid foundation in programming languages such as Java, C++, and Python, and I am continuously working to enhance my skills in these areas. I enjoy problem-solving and have a passion for learning new technologies and staying updated with the latest trends in the tech industry.
+                    
+                    Apart from academics, I am also actively involved in my personal projects, which have helped me develop my teamwork and leadership abilities. In my free time, I love exploring new software tools, working on personal coding projects, and participating in coding challenges and hackathons.
+                    
+                    I am excited about the opportunities that lie ahead in the field of computer applications and look forward to contributing to innovative projects and solutions in the tech industry.
+                    
+                    Thank you!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('project')">Project</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Tech Lang.</span><br>HTML, CSS & JS</li>
+                            <li><span>programming Lang.</span><br>Python, Java, C & C++</li>
+                            <li><span>Soft Skills.</span><br> Empathy and emotional intelligence,  Positive attitude and enthusiasm &  Adaptability</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="project">
+                        <ul>
+                            <li><span>E-Nursery</span><br>Online plants shopping website.</li>
+                            <li><span>Google Gemini</span><br>A Google Gemini clone.</li>
+                            <li><span>App Development</span><br>Building Android/ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>BCA</span><br>From L.N Mishra college[2021-2024]</li>
+                            <li><span>Intermediate</span><br>74%[BSEB]</li>
+                            <li><span>10th</span><br>77%[CBSE].</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---services------>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>lorem ipsum dolor sit amet consectuture adipiscing elit. sed nulla nibh,
+                    tincidunt sit amet sapieb quis. </p>
+                
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>lorem ipsum dolor sit amet consectuture adipiscing elit. sed nulla nibh,
+                    tincidunt sit amet sapieb quis.</p>
+                
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>lorem ipsum dolor sit amet consectuture adipiscing elit. sed nulla nibh,
+                    tincidunt sit amet sapieb quis.</p>
+                
+                <a href="#">Learn more</a>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<!----portfolio----->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+               <img src="port_img/vats.jpg">
+                 <div class="layer">
+                    <h3>Plants Shopping Website</h3>
+                    <p>This is the web site of online shopping plants.
+                        For shiopping register and enjoy our services.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                 </div>  
+            </div>
+            <div class="work">
+                <img src="port_img/song.jpg"> 
+                
+                <div class="layer">
+                    <h3>Music Player</h3>
+                    <p>This is the web site of online shopping plants.
+                        For shiopping register and enjoy our services.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                 </div> 
+             </div>
+             <div class="work">
+                <img src="port_img/google.jpg" height="60%">
+                
+                <div class="layer">
+                    <h3>Google Gemini Clone</h3>
+                    <p>This is the web site of online shopping plants.
+                        For shiopping register and enjoy our services.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                 </div> 
+             </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!----contact----->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> aradhyasingh1130@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 6203912859</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/aradhya-singh-85790b288/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/aradhyaSingh17" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                </div>
+                <a href="port_img/Aradhya singh Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright <i class="fa-regular fa-copyright"></i> Singh. Made with <i class="fa-solid fa-heart"></i> by easy Tutorial</p>
+    </div>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+    
+</body>
+</html>
